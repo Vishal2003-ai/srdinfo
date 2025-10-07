@@ -25,10 +25,10 @@ export default function HomeSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
-            <Link href="/Courses">
+            <Link href="/courses">
               <Button size="lg">Explore Courses</Button>
             </Link>
-            <Link href="/Contact">
+            <Link href="/contact">
               <Button size="lg" variant="outline">
                 Contact Us
               </Button>
@@ -44,7 +44,7 @@ export default function HomeSection() {
           className="flex-1 flex justify-center"
         >
           <Image
-            src="/img2.jpg" // Replace with your actual image path
+            src="/srd-education-center.png" // Replace with your actual image path
             alt="SRD Education Center"
             width={450}
             height={450}
@@ -58,21 +58,21 @@ export default function HomeSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6 }}
-        className="container mx-auto mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 text-center hover:text-white"
+        className="container mx-auto mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 text-center"
       >
-        <div className="p-6 rounded-2xl shadow hover:shadow-2xl transition ">
+        <div className="p-6 bg-card rounded-2xl shadow hover:shadow-lg transition">
           <h3 className="text-lg font-semibold text-primary">Experienced Faculty</h3>
           <p className="text-sm text-muted-foreground mt-2">
             Learn from certified and skilled instructors with years of experience.
           </p>
         </div>
-        <div className="p-6 rounded-2xl shadow hover:shadow-2xl transition ">
+        <div className="p-6 bg-card rounded-2xl shadow hover:shadow-lg transition">
           <h3 className="text-lg font-semibold text-primary">Government Approved</h3>
           <p className="text-sm text-muted-foreground mt-2">
             SRD Education Center offers NIELIT and government-certified programs.
           </p>
         </div>
-        <div className="p-6 rounded-2xl shadow hover:shadow-2xl transition ">
+        <div className="p-6 bg-card rounded-2xl shadow hover:shadow-lg transition">
           <h3 className="text-lg font-semibold text-primary">Modern Infrastructure</h3>
           <p className="text-sm text-muted-foreground mt-2">
             Smart classrooms and advanced computer labs for effective learning.
